@@ -1,7 +1,10 @@
 # macro9000
 a compact hand wired macropad!
+
+![screenshot](screenshot.jpg)
+
 macro9000 is a 9 key rp2040 and qmk based customisable macropad! it can be made without needing to manufacture a pcb! 
-it also modularly attaches via trrs cable and uart, with splitkey9000, my hand wired split keyboard... (wip)
+it also modularly attaches via trrs cable and uart, with key9000, my hand wired split keyboard...
 
 ### inspiration
 every macropad i see has a pcb attached to it. i dont see the need for it to be honest. so i decided to make my own hand wired macropad.
@@ -44,7 +47,9 @@ switches should be wired after fitting into the sockets like:
 * push the mx keys into the slots on the socket. its square, so doesnt matter which way. but for easy wiring, place all the 2 pin sides on the same side (as shown in the wiring diagram)
 * solder the diodes, and the wires acc to the wiring diagram, make sure that the leg opposite to the black stripe is connected to the switch leg.
 * mount the rp2040 zero in the box, and make the connections acc to the schematic
-* mount the trrs female in the box and make its connections too (wip)
+* mount the trrs female in the box and make its connections too 
 * place the socket over the box
-* flash the firmware and youre good to go!
+* compile the firmware from the firmware folder yourself, or just use the precompiled uf2 file
+* to use the precompiled file, press the bootsel button on the mc, and connect it to the pc while doing so. place the uf2 file inside the drive mounted, eject it, and youre good to go!
+* to use it as a peripheral to the key9000, connect it to the keyboard via a trrs cable...
 
