@@ -1,6 +1,11 @@
 # macro9000
 a compact hand wired macropad!
 
+### demo video
+
+[Video link](https://youtube.com/shorts/8pyx6ukkxaA)
+
+
 ![screenshot](screenshot.jpg)
 
 macro9000 is a 9 key rp2040 and qmk based customisable macropad! it can be made without needing to manufacture a pcb! 
@@ -50,5 +55,6 @@ switches should be wired after fitting into the sockets like:
 * place the socket over the box
 * compile the firmware from the firmware folder yourself, or just use the precompiled uf2 file
 * to use the precompiled file, press the bootsel button on the mc, and connect it to the pc while doing so. place the uf2 file inside the drive mounted, eject it, and youre good to go!
+* open usevia.app, go to settings, toggle on view design... upload this [file](firmware/macro9000/macro9000_via.json) there and open edit tool to remap your keys!
 * to use it as a peripheral to the key9000, connect it to the keyboard via a trrs cable...
 
